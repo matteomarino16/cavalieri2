@@ -1,0 +1,611 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="I CAVALIERI è un B&B di lusso: eleganza, comfort e ospitalità premium. Scopri camere deluxe, spa & relax, colazione gourmet e viste panoramiche."
+    />
+    <meta name="theme-color" content="#ffffff" />
+
+    <meta property="og:title" content="I CAVALIERI | B&B di Lusso" />
+    <meta
+      property="og:description"
+      content="Eleganza, comfort e ospitalità di lusso. Boutique B&B premium."
+    />
+    <meta property="og:type" content="website" />
+
+    <title>I CAVALIERI | B&B di Lusso</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+    <script defer src="./script.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#home">Salta al contenuto</a>
+
+    <!-- HEADER -->
+    <header class="site-header" data-header>
+      <div class="container header-inner">
+        <a class="logo" href="#home" aria-label="I CAVALIERI - Home">I CAVALIERI</a>
+
+        <nav class="nav" aria-label="Navigazione principale" data-nav>
+          <a class="nav-link" href="#home">Home</a>
+          <a class="nav-link" href="#chi-siamo">Chi Siamo</a>
+          <a class="nav-link" href="#struttura">Struttura</a>
+          <a class="nav-link" href="#galleria">Galleria</a>
+          <a class="nav-link" href="#contatti">Contatti</a>
+          <a class="nav-link" href="#prenota">Prenota</a>
+          <a class="btn btn-primary nav-cta" href="#prenota">Prenota Ora</a>
+        </nav>
+
+        <button
+          class="burger"
+          type="button"
+          aria-label="Apri menu"
+          aria-expanded="false"
+          aria-controls="mobileMenu"
+          data-burger
+        >
+          <span class="burger-lines" aria-hidden="true"></span>
+        </button>
+      </div>
+
+      <div class="mobile-menu" id="mobileMenu" data-mobile-menu>
+        <div class="mobile-menu-panel glass">
+          <div class="mobile-menu-top">
+            <span class="mobile-menu-title">Menu</span>
+            <button class="icon-btn" type="button" aria-label="Chiudi menu" data-close-menu>
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="mobile-menu-links">
+            <a class="nav-link" href="#home">Home</a>
+            <a class="nav-link" href="#chi-siamo">Chi Siamo</a>
+            <a class="nav-link" href="#struttura">Struttura</a>
+            <a class="nav-link" href="#galleria">Galleria</a>
+            <a class="nav-link" href="#contatti">Contatti</a>
+            <a class="nav-link" href="#prenota">Prenota</a>
+          </div>
+          <a class="btn btn-primary btn-block" href="#prenota">Prenota Ora</a>
+        </div>
+        <button class="mobile-menu-backdrop" type="button" aria-label="Chiudi menu" data-backdrop></button>
+      </div>
+    </header>
+
+    <main id="home">
+      <!-- HERO SECTION -->
+      <section class="hero" aria-label="Hero">
+        <div class="hero-bg" aria-hidden="true"></div>
+        <div class="hero-overlay" aria-hidden="true"></div>
+
+        <div class="container hero-content">
+          <div class="hero-card glass reveal">
+            <p class="eyebrow">B&B di Lusso</p>
+            <h1 class="hero-title">I CAVALIERI</h1>
+            <p class="hero-subtitle">Eleganza, comfort e ospitalità di lusso</p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#struttura">Scopri la Struttura</a>
+              <a class="btn btn-ghost" href="#galleria">Esplora la Galleria</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="scroll-indicator" aria-hidden="true">
+          <span class="scroll-dot"></span>
+        </div>
+      </section>
+
+      <!-- SEZIONE “CHI SIAMO” -->
+      <section class="section" id="chi-siamo" aria-labelledby="chiSiamoTitle">
+        <div class="container">
+          <div class="section-head reveal">
+            <h2 class="section-title" id="chiSiamoTitle">Chi Siamo</h2>
+            <p class="section-kicker">
+              Un rifugio contemporaneo dove il design incontra l’arte dell’ospitalità.
+            </p>
+          </div>
+
+          <div class="about-grid">
+            <div class="about-media reveal">
+              <img
+                class="about-image"
+                src="https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=1400&q=80"
+                alt="Interno elegante di un boutique hotel"
+                loading="lazy"
+              />
+              <div class="about-media-badge glass">
+                <span class="badge-title">Boutique</span>
+                <span class="badge-sub">Esperienza su misura</span>
+              </div>
+            </div>
+
+            <div class="about-copy glass reveal">
+              <p class="lead">
+                I CAVALIERI nasce per chi cerca una dimensione intima e curata nei dettagli, con
+                atmosfere luminose, materiali pregiati e un’estetica essenziale.
+              </p>
+              <p>
+                Ogni ambiente è pensato per offrire benessere: camere dal carattere contemporaneo,
+                servizi premium e un’accoglienza discreta. Qui, il tempo rallenta e ogni gesto
+                diventa comfort.
+              </p>
+              <div class="about-features">
+                <div class="pill">Design raffinato</div>
+                <div class="pill">Silenzio & privacy</div>
+                <div class="pill">Servizi premium</div>
+                <div class="pill">Posizione esclusiva</div>
+              </div>
+              <a class="btn btn-ghost" href="#prenota">Richiedi Disponibilità</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SEZIONE “LA NOSTRA STRUTTURA” -->
+      <section class="section section-alt" id="struttura" aria-labelledby="strutturaTitle">
+        <div class="container">
+          <div class="section-head reveal">
+            <h2 class="section-title" id="strutturaTitle">La Nostra Struttura</h2>
+            <p class="section-kicker">
+              Esperienze selezionate, linee pulite, comfort superiore. Tutto, con discrezione.
+            </p>
+          </div>
+
+          <div class="cards-grid">
+            <article class="card glass tilt reveal" data-tilt>
+              <div class="card-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M4 11.5V9.25C4 8.007 5.007 7 6.25 7h11.5C19.993 7 21 8.007 21 9.25V11.5"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                  />
+                  <path
+                    d="M5.5 11.5h13v4.75A1.75 1.75 0 0 1 16.75 18h-9.5A1.75 1.75 0 0 1 5.5 16.25V11.5Z"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M7 18v2m10-2v2"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </div>
+              <h3 class="card-title">Camere Deluxe</h3>
+              <p class="card-text">
+                Atmosfere soft, tessuti pregiati e finiture essenziali. Un comfort che si percepisce
+                al primo sguardo.
+              </p>
+            </article>
+
+            <article class="card glass tilt reveal" data-tilt>
+              <div class="card-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M7 14c0 2.761 2.239 5 5 5s5-2.239 5-5c0-2.5-2-4.5-5-8-3 3.5-5 5.5-5 8Z"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M12 18c1.657 0 3-1.343 3-3"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </div>
+              <h3 class="card-title">Spa &amp; Relax</h3>
+              <p class="card-text">
+                Un rituale di benessere tra luci morbide e dettagli opachi. La pausa perfetta, senza
+                rumore.
+              </p>
+            </article>
+
+            <article class="card glass tilt reveal" data-tilt>
+              <div class="card-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M5 10h14M7 10V7.5A2.5 2.5 0 0 1 9.5 5h5A2.5 2.5 0 0 1 17 7.5V10"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                  />
+                  <path
+                    d="M6 10v6.5A2.5 2.5 0 0 0 8.5 19h7A2.5 2.5 0 0 0 18 16.5V10"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M9 13h6"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </div>
+              <h3 class="card-title">Colazione Gourmet</h3>
+              <p class="card-text">
+                Materie prime selezionate, profumi delicati, presentazioni curate. Un inizio
+                impeccabile.
+              </p>
+            </article>
+
+            <article class="card glass tilt reveal" data-tilt>
+              <div class="card-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M4 18l7-8 4 5 5-7"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M4 18h16"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </div>
+              <h3 class="card-title">Vista Panoramica</h3>
+              <p class="card-text">
+                Un orizzonte pulito e luminoso. Il modo migliore per concludere la giornata in
+                silenzio.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- SEZIONE GALLERIA -->
+      <section class="section" id="galleria" aria-labelledby="galleriaTitle">
+        <div class="container">
+          <div class="section-head reveal">
+            <h2 class="section-title" id="galleriaTitle">Galleria</h2>
+            <p class="section-kicker">
+              Luci, materiali e atmosfere. Uno sguardo alla nostra idea di lusso contemporaneo.
+            </p>
+          </div>
+
+          <div class="gallery-grid" data-gallery>
+            <button
+              class="gallery-item reveal"
+              type="button"
+              data-lightbox
+              data-full="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=2400&q=80"
+              aria-label="Apri immagine: Camera luxury"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1200&q=80"
+                alt="Camera luxury con luce naturale"
+                loading="lazy"
+              />
+            </button>
+
+            <button
+              class="gallery-item reveal"
+              type="button"
+              data-lightbox
+              data-full="https://images.unsplash.com/photo-1445019980597-93fa8acb246c?auto=format&fit=crop&w=2400&q=80"
+              aria-label="Apri immagine: Lobby minimal"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1445019980597-93fa8acb246c?auto=format&fit=crop&w=1200&q=80"
+                alt="Lobby elegante con arredi minimal"
+                loading="lazy"
+              />
+            </button>
+
+            <button
+              class="gallery-item reveal"
+              type="button"
+              data-lightbox
+              data-full="https://images.unsplash.com/photo-1541976844346-f18aeac57b06?auto=format&fit=crop&w=2400&q=80"
+              aria-label="Apri immagine: Bagno premium"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1541976844346-f18aeac57b06?auto=format&fit=crop&w=1200&q=80"
+                alt="Bagno premium con dettagli in pietra"
+                loading="lazy"
+              />
+            </button>
+
+            <button
+              class="gallery-item reveal"
+              type="button"
+              data-lightbox
+              data-full="https://images.unsplash.com/photo-1551887373-6b95e0f1f7b0?auto=format&fit=crop&w=2400&q=80"
+              aria-label="Apri immagine: Zona relax"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1551887373-6b95e0f1f7b0?auto=format&fit=crop&w=1200&q=80"
+                alt="Zona relax con toni chiari e luce morbida"
+                loading="lazy"
+              />
+            </button>
+
+            <button
+              class="gallery-item reveal"
+              type="button"
+              data-lightbox
+              data-full="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=2400&q=80"
+              aria-label="Apri immagine: Facciata hotel"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=80"
+                alt="Facciata di hotel luxury"
+                loading="lazy"
+              />
+            </button>
+
+            <button
+              class="gallery-item reveal"
+              type="button"
+              data-lightbox
+              data-full="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=2400&q=80"
+              aria-label="Apri immagine: Suite"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=1200&q=80"
+                alt="Suite elegante con tessuti e toni neutri"
+                loading="lazy"
+              />
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- SEZIONE CONTATTI -->
+      <section class="section section-alt" id="contatti" aria-labelledby="contattiTitle">
+        <div class="container">
+          <div class="section-head reveal">
+            <h2 class="section-title" id="contattiTitle">Contatti</h2>
+            <p class="section-kicker">Scrivici o chiamaci: rispondiamo con la massima cura.</p>
+          </div>
+
+          <div class="contacts-grid">
+            <div class="contacts-left reveal">
+              <div class="contacts-box glass">
+                <h3 class="contacts-title">Informazioni</h3>
+
+                <a class="contact-row" href="mailto:info@icavalieri.example">
+                  <span class="contact-ico" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none">
+                      <path
+                        d="M4 7.5A2.5 2.5 0 0 1 6.5 5h11A2.5 2.5 0 0 1 20 7.5v9A2.5 2.5 0 0 1 17.5 19h-11A2.5 2.5 0 0 1 4 16.5v-9Z"
+                        stroke="currentColor"
+                        stroke-width="1.5"
+                      />
+                      <path
+                        d="M5.5 7l6.5 5 6.5-5"
+                        stroke="currentColor"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </span>
+                  <span class="contact-meta">
+                    <span class="contact-label">Email</span>
+                    <span class="contact-value">info@icavalieri.example</span>
+                  </span>
+                </a>
+
+                <a class="contact-row" href="tel:+390000000000">
+                  <span class="contact-ico" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none">
+                      <path
+                        d="M8.5 10.5c1.5 3 2.99 4.5 6 6"
+                        stroke="currentColor"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                      />
+                      <path
+                        d="M10.2 5.7 8.9 4.4a2 2 0 0 0-2.9 0L4.7 5.7c-.7.7-.9 1.8-.5 2.7 2 4.4 5.5 7.9 9.9 9.9.9.4 2 .2 2.7-.5l1.3-1.3a2 2 0 0 0 0-2.9l-1.3-1.3a2 2 0 0 0-2.3-.4l-1 .5c-1-1-2-2-3-3l.5-1a2 2 0 0 0-.4-2.3Z"
+                        stroke="currentColor"
+                        stroke-width="1.5"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </span>
+                  <span class="contact-meta">
+                    <span class="contact-label">Telefono</span>
+                    <span class="contact-value">+39 000 000 0000</span>
+                  </span>
+                </a>
+
+                <div class="contact-row is-static">
+                  <span class="contact-ico" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none">
+                      <path
+                        d="M12 21s7-5.2 7-11a7 7 0 1 0-14 0c0 5.8 7 11 7 11Z"
+                        stroke="currentColor"
+                        stroke-width="1.5"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M12 12.2a2.2 2.2 0 1 0 0-4.4 2.2 2.2 0 0 0 0 4.4Z"
+                        stroke="currentColor"
+                        stroke-width="1.5"
+                      />
+                    </svg>
+                  </span>
+                  <span class="contact-meta">
+                    <span class="contact-label">Posizione</span>
+                    <span class="contact-value">Centro storico · Italia</span>
+                  </span>
+                </div>
+
+                <div class="social-grid">
+                  <a class="social-pill" href="#" aria-label="Instagram">
+                    <span class="social-ico" aria-hidden="true">IG</span>
+                    Instagram
+                  </a>
+                  <a class="social-pill" href="#" aria-label="Facebook">
+                    <span class="social-ico" aria-hidden="true">FB</span>
+                    Facebook
+                  </a>
+                  <a class="social-pill" href="#" aria-label="WhatsApp">
+                    <span class="social-ico" aria-hidden="true">WA</span>
+                    WhatsApp
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="contacts-right reveal">
+              <div class="map-shell glass">
+                <iframe
+                  title="Mappa - I CAVALIERI"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23703.153386927192!2d12.476!3d41.902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f6048d6a0d1ef%3A0x0!2sCentro%20Storico!5e0!3m2!1sit!2sit!4v1720000000000"
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SEZIONE PRENOTAZIONE -->
+      <section class="section" id="prenota" aria-labelledby="prenotaTitle">
+        <div class="container">
+          <div class="section-head reveal">
+            <h2 class="section-title" id="prenotaTitle">Prenota</h2>
+            <p class="section-kicker">
+              Inviaci una richiesta: ti risponderemo con disponibilità e migliori condizioni.
+            </p>
+          </div>
+
+          <div class="booking-shell glass reveal">
+            <form class="form" data-booking-form novalidate>
+              <div class="form-grid">
+                <div class="field">
+                  <label for="nome">Nome</label>
+                  <input id="nome" name="nome" type="text" autocomplete="given-name" required />
+                  <small class="error" data-error-for="nome"></small>
+                </div>
+
+                <div class="field">
+                  <label for="cognome">Cognome</label>
+                  <input id="cognome" name="cognome" type="text" autocomplete="family-name" required />
+                  <small class="error" data-error-for="cognome"></small>
+                </div>
+
+                <div class="field">
+                  <label for="email">Email</label>
+                  <input id="email" name="email" type="email" autocomplete="email" required />
+                  <small class="error" data-error-for="email"></small>
+                </div>
+
+                <div class="field">
+                  <label for="telefono">Telefono</label>
+                  <input
+                    id="telefono"
+                    name="telefono"
+                    type="tel"
+                    inputmode="tel"
+                    autocomplete="tel"
+                    required
+                  />
+                  <small class="error" data-error-for="telefono"></small>
+                </div>
+
+                <div class="field">
+                  <label for="checkin">Data check-in</label>
+                  <input id="checkin" name="checkin" type="date" required />
+                  <small class="error" data-error-for="checkin"></small>
+                </div>
+
+                <div class="field">
+                  <label for="checkout">Data check-out</label>
+                  <input id="checkout" name="checkout" type="date" required />
+                  <small class="error" data-error-for="checkout"></small>
+                </div>
+
+                <div class="field">
+                  <label for="ospiti">Numero ospiti</label>
+                  <select id="ospiti" name="ospiti" required>
+                    <option value="" selected disabled>Seleziona</option>
+                    <option value="1">1 ospite</option>
+                    <option value="2">2 ospiti</option>
+                    <option value="3">3 ospiti</option>
+                    <option value="4">4 ospiti</option>
+                  </select>
+                  <small class="error" data-error-for="ospiti"></small>
+                </div>
+
+                <div class="field field-wide">
+                  <label for="messaggio">Messaggio</label>
+                  <textarea
+                    id="messaggio"
+                    name="messaggio"
+                    rows="4"
+                    placeholder="Richieste speciali, orari di arrivo, preferenze…"
+                  ></textarea>
+                  <small class="error" data-error-for="messaggio"></small>
+                </div>
+              </div>
+
+              <div class="form-actions">
+                <button class="btn btn-primary" type="submit">Invia Richiesta</button>
+                <p class="form-note">
+                  Inviando accetti di essere ricontattato per la gestione della prenotazione.
+                </p>
+              </div>
+
+              <div class="form-status" role="status" aria-live="polite" data-form-status></div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer" aria-label="Footer">
+      <div class="container footer-inner">
+        <div class="footer-brand">
+          <a class="logo" href="#home" aria-label="I CAVALIERI - Home">I CAVALIERI</a>
+          <p class="footer-tagline">Boutique B&amp;B · Luxury experience</p>
+        </div>
+
+        <div class="footer-links" aria-label="Collegamenti rapidi">
+          <a href="#chi-siamo">Chi Siamo</a>
+          <a href="#struttura">Struttura</a>
+          <a href="#galleria">Galleria</a>
+          <a href="#contatti">Contatti</a>
+          <a href="#prenota">Prenota</a>
+        </div>
+
+        <div class="footer-social" aria-label="Social">
+          <a href="#" aria-label="Instagram">Instagram</a>
+          <a href="#" aria-label="Facebook">Facebook</a>
+          <a href="#" aria-label="WhatsApp">WhatsApp</a>
+        </div>
+      </div>
+
+      <div class="container footer-bottom">
+        <span class="footer-line" aria-hidden="true"></span>
+        <p class="copyright">
+          © <span data-year></span> I CAVALIERI. Tutti i diritti riservati.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
